@@ -1,0 +1,110 @@
+{
+  "models": [
+    {
+      "model": "besturing",
+      "module": "NewSolution",
+      "moduleDir": "C:/Users/jekea01/MPSProjects/PRA - Pensioen Case Project/solutions/NewSolution",
+      "modelGenDir": "C:/Users/jekea01/MPSProjects/PRA - Pensioen Case Project/solutions/NewSolution/source_gen/besturing"
+    },
+    {
+      "model": "gegevens",
+      "module": "NewSolution",
+      "moduleDir": "C:/Users/jekea01/MPSProjects/PRA - Pensioen Case Project/solutions/NewSolution",
+      "modelGenDir": "C:/Users/jekea01/MPSProjects/PRA - Pensioen Case Project/solutions/NewSolution/source_gen/gegevens"
+    },
+    {
+      "model": "regels",
+      "module": "NewSolution",
+      "moduleDir": "C:/Users/jekea01/MPSProjects/PRA - Pensioen Case Project/solutions/NewSolution",
+      "modelGenDir": "C:/Users/jekea01/MPSProjects/PRA - Pensioen Case Project/solutions/NewSolution/source_gen/regels"
+    },
+    {
+      "model": "testing",
+      "module": "NewSolution",
+      "moduleDir": "C:/Users/jekea01/MPSProjects/PRA - Pensioen Case Project/solutions/NewSolution",
+      "modelGenDir": "C:/Users/jekea01/MPSProjects/PRA - Pensioen Case Project/solutions/NewSolution/source_gen/testing",
+      "flowTestBlazeFunctions": [
+        {
+          "test": "berekening bruto netto ouderdomspensioen met partner excl korting",
+          "detail": "2023-07-01",
+          "set": "Flowtest hoogte bedrag bruto en netto ouderdomspensioen",
+          "method": "test_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_519085519418190263_20230701"
+        },
+        {
+          "test": "berekening bruto netto ouderdomspensioen zonder partner excl korting",
+          "detail": "2023-07-01",
+          "set": "Flowtest hoogte bedrag bruto en netto ouderdomspensioen",
+          "method": "test_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_519085519418193748_20230701"
+        },
+        {
+          "test": "berekening bruto netto ouderdomspensioen met partner incl korting 10%",
+          "detail": "2023-07-01",
+          "set": "Flowtest hoogte bedrag bruto en netto ouderdomspensioen",
+          "method": "test_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_519085519418195676_20230701"
+        },
+        {
+          "test": "berekening bruto netto ouderdomspensioen met partner excl korting",
+          "detail": "2023-07-01",
+          "set": "Flowtest voor berekening totaal AOW",
+          "method": "test_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_1727859032467246727_20230701"
+        }
+      ],
+      "regelgroepTestBlazeFunctions": [
+        {
+          "test": "001",
+          "detail": "2023-07-01",
+          "set": "Pensioengerechtigde leeftijd vanaf 2026",
+          "method": "test_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_4038074786039914351_20230701"
+        },
+        {
+          "test": "002",
+          "detail": "2023-07-01",
+          "set": "Pensioengerechtigde leeftijd vanaf 2026",
+          "method": "test_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_4038074786039964219_20230701"
+        },
+        {
+          "test": "003",
+          "detail": "2023-07-01",
+          "set": "Pensioengerechtigde leeftijd vanaf 2026",
+          "method": "test_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_878861464539562845_20230701"
+        },
+        {
+          "test": "Hoogte AOW met partner voor de AOW met loonheffingskorting",
+          "detail": "2023-07-01",
+          "set": "Bedrag ouderdomspensioen",
+          "method": "test_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_519085519417888479_20230701"
+        },
+        {
+          "test": "Hoogte AOW zonder partner voor de AOW met loonheffingskorting",
+          "detail": "2023-07-01",
+          "set": "Bedrag ouderdomspensioen",
+          "method": "test_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_519085519417903978_20230701"
+        },
+        {
+          "test": "berekening recht op ouderdomspensioen 01",
+          "detail": "2023-07-01",
+          "set": "Berekening voor percentage recht op ouderdomspensioen",
+          "method": "test_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_519085519418080370_20230701"
+        },
+        {
+          "test": "berekening recht op ouderdomspensioen 02",
+          "detail": "2023-07-01",
+          "set": "Berekening voor percentage recht op ouderdomspensioen",
+          "method": "test_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_519085519418156320_20230701"
+        },
+        {
+          "test": "001",
+          "detail": "2023-07-01",
+          "set": "Test - regelgroep Berekning AOW toeslag",
+          "method": "test_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_1727859032467259560_20230701"
+        },
+        {
+          "test": "002",
+          "detail": "2023-07-01",
+          "set": "Test - regelgroep Berekning AOW toeslag",
+          "method": "test_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_1727859032467261250_20230701"
+        }
+      ]
+    }
+  ]
+}

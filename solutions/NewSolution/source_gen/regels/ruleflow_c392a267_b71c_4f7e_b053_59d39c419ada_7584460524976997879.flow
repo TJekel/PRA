@@ -1,0 +1,9 @@
+<?xml version = "1.0"?>
+<ruleflow name="ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976997879">
+  <!--gegenereerd o.b.v. de Regelgroep genaamd 'Berekening bruto en netto ouderdomspensioen', in model 'regels' in module 'NewSolution': http://127.0.0.1:63320/node?ref=r%3Ac392a267-b71c-4f7e-b053-59d39c419ada%28regels%29%2F7584460524976997879 --> 
+  <flow>
+    <task name="Berekening bruto ouderdomspensioen geen partner  altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418173000" type="ruleset" datatype="void" />
+    <task name="Berekening bruto ouderdomspensioen met partner  altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418180505" type="ruleset" datatype="void" />
+    <task name="Berekening netto ouderdomspensioen altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519417883313" type="ruleset" datatype="void" />
+  </flow>
+</ruleflow>

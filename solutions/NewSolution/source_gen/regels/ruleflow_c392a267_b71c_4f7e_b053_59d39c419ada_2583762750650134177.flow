@@ -1,0 +1,18 @@
+<?xml version = "1.0"?>
+<ruleflow name="ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_2583762750650134177">
+  <!--gegenereerd o.b.v. de Regelgroep genaamd 'Bepalen pensioengerechtige leeftijd tot en met 2025', in model 'regels' in module 'NewSolution': http://127.0.0.1:63320/node?ref=r%3Ac392a267-b71c-4f7e-b053-59d39c419ada%28regels%29%2F2583762750650134177 --> 
+  <flow>
+    <task name="Pensioengerechtigde leeftijd bepalen in 2013 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976096888" type="ruleset" datatype="void" />
+    <task name="Pensioengerechtigde leeftijd bepalen in 2014 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976501403" type="ruleset" datatype="void" />
+    <task name="Pensioengerechtigde leeftijd bepalen in 2015 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976687467" type="ruleset" datatype="void" />
+    <task name="Pensioengerechtigde leeftijd bepalen in 2016 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976534684" type="ruleset" datatype="void" />
+    <task name="Pensioengerechtigde leeftijd bepalen in 2017 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930338864001" type="ruleset" datatype="void" />
+    <task name="Pensioengerechtigde leeftijd bepalen in 2018 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930338894339" type="ruleset" datatype="void" />
+    <task name="Pensioengerechtigde leeftijd bepalen in 2019, 2020 en 2021 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930338934357" type="ruleset" datatype="void" />
+    <task name="Pensioengerechtigde leeftijd bepalen in 2022 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976558552" type="ruleset" datatype="void" />
+    <task name="Pensioengerechtigde leeftijd bepalen in 2023 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976595719" type="ruleset" datatype="void" />
+    <task name="Pensioengerechtigde leeftijd bepalen in 2024 en 2025 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930339058347" type="ruleset" datatype="void" />
+    <task name="Regel pensioengerechtige leeftijd is bereikt altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930339280556" type="ruleset" datatype="void" />
+    <task name="Initialisatie pensioengerechtigde leeftijd is bereikt altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_2583762750650191984" type="ruleset" datatype="void" />
+  </flow>
+</ruleflow>

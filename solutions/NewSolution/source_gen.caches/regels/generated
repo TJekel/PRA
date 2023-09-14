@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-585e5d5gk813qve031sy68opv9jkme7">
+  <files names="rulebase_regels__c392a267__b71c__4f7e__b053__59d39c419ada__5952312543777624918.rb:ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467009944.flow:ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_2583762750650134177.flow:ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418056014.flow:ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_5952312543777624918.flow:ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930339651747.flow:ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976997879.flow" />
+  <files dir="HTML/regels/AOW pensioen bedrag/" names="Berekening AOW toeslag_Regelgroep.html:Berekening bruto en netto ouderdomspensioen_Regelgroep.html:Berekening percentage recht op ouderdomspensioen_Regelgroep.html" />
+  <files dir="HTML/regels/AOW-leeftijd/" names="Begindatum periode belastingverlaging en premievrije periode vanwege bereiken AOW-leeftijd_Regelgroep.html:Bepalen pensioengerechtige datum vanaf 2026_Regelgroep.html:Bepalen pensioengerechtige leeftijd tot en met 2025_Regelgroep.html" />
+  <files dir="HTML/resources/css/" names="beslistabellen.css:besturing.css:main.css:objecten.css:rapportage.css:regels.css:services.css:testen.css" />
+</product>
+

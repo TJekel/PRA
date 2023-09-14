@@ -1,0 +1,10 @@
+<?xml version = "1.0"?>
+<ruleflow name="ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930339651747">
+  <!--gegenereerd o.b.v. de Regelgroep genaamd 'Bepalen pensioengerechtige datum vanaf 2026', in model 'regels' in module 'NewSolution': http://127.0.0.1:63320/node?ref=r%3Ac392a267-b71c-4f7e-b053-59d39c419ada%28regels%29%2F7321771930339651747 --> 
+  <flow>
+    <task name="V = 2/3 * (L – 20,64) – (P – 67) forumule artikel 7a, tweede lid, van de Algemene Ouderdomswet altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930339814128" type="ruleset" datatype="void" />
+    <task name="Uitkomst formule artikel 7a, tweede lid, van de Algemene Ouderdomswet 1 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_4038074786039897006" type="ruleset" datatype="void" />
+    <task name="Uitkomst formule artikel 7a, tweede lid, van de Algemene Ouderdomswet 2 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_4038074786039904869" type="ruleset" datatype="void" />
+    <task name="Bepalen pensioengerechtige leeftijd vanaf 2026 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_4038074786039936869" type="ruleset" datatype="void" />
+  </flow>
+</ruleflow>

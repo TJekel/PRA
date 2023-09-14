@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <title>Berekening bruto en netto ouderdomspensioen</title>
+    
+    <link rel="stylesheet" type="text/css" href="../../resources/css/main.css"></link>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/regels.css"></link>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
+  </head>
+  <body>
+    <span class="alefUrl" onClick="new Image().src='http://127.0.0.1:63320/node?ref=r%3Ac392a267-b71c-4f7e-b053-59d39c419ada%28regels%29%2F7584460524976997879'">ALEF</span>
+    <div class="title">Regelgroep Berekening bruto en netto ouderdomspensioen</div>
+    <div class="comment">
+      <span>
+        //&nbsp;1.
+         
+        Deze
+        regels
+        geven
+        een
+        indruk.
+        <br />
+      </span>
+      <span>
+        //&nbsp;2.
+         
+        Pensioen
+        is
+        hier
+        generiek
+        berekend
+        maar
+        niet
+        naar
+        de
+        dag.
+        Dus
+        geen
+        oplossing
+        nog
+        voor
+        een
+        pensioengerechtigde
+        datum
+        van
+        bijvoorbeeld
+        13-06.
+        Dan
+        wordt
+        het
+        pensioenbedrag
+        niet
+        berekend
+        naar
+        rato
+        van
+        de
+        maand,
+        maar
+        generiek
+        vanaf
+        de
+        1e
+        van
+        die
+        maand.
+        Dat
+        moet
+        nog
+        gemaakt
+        worden.
+        <br />
+      </span>
+      <span>
+        //&nbsp;3.
+         
+        Netto
+        minimumloon
+        is
+        als
+        parameter
+        meegegeven.
+        Daar
+        is
+        voor
+        gekozen
+        samen
+        met
+        Gwydion.
+        <br />
+      </span>
+    </div>
+    <div class="regel">
+      <b>Regel</b>
+      <span>Berekening bruto ouderdomspensioen geen partner </span>
+      <div>
+        <span class="geldig">geldig 
+            altijd</span>
+        <div class="spraak"><span id="519085519418173004">De <a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976952171" class="attribuut">bruto-ouderdomspensioen</a></span> van <span id="519085519418173005">een <a href="../../gegevens/gegevensmodel_ObjectModel.html#1389081297379406357" class="objecttype">Natuurlijk persoon</a></span> moet berekend worden als (<span id="519085519418178746">de <a href="../../gegevens/gegevensmodel_ObjectModel.html#519085519418067761" class="attribuut">percentage recht op ouderdomspensioen</a></span> van <a href="Berekening bruto en netto ouderdomspensioen_Regelgroep.html#519085519418173005">de Natuurlijk persoon</a> van (<a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976999949" class="parameter">de <span class="parameter">Percentage van minimumloon voor AOW van ongehuwde</span></a> van <a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976931958" class="parameter">de <span class="parameter">Netto minimumloon per maand</span></a>)) naar beneden afgerond op 2 decimalen <br>indien <a href="Berekening bruto en netto ouderdomspensioen_Regelgroep.html#519085519418173005">de Natuurlijk persoon</a> niet <a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976983903" class="kenmerk">partner voor de AOW</a> heeft.</div>
+      </div>
+    </div>
+    <div class="regel">
+      <b>Regel</b>
+      <span>Berekening bruto ouderdomspensioen met partner </span>
+      <div>
+        <span class="geldig">geldig 
+            altijd</span>
+        <div class="spraak"><span id="519085519418180509">De <a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976952171" class="attribuut">bruto-ouderdomspensioen</a></span> van <span id="519085519418180510">een <a href="../../gegevens/gegevensmodel_ObjectModel.html#1389081297379406357" class="objecttype">Natuurlijk persoon</a></span> moet berekend worden als (<span id="519085519418180515">de <a href="../../gegevens/gegevensmodel_ObjectModel.html#519085519418067761" class="attribuut">percentage recht op ouderdomspensioen</a></span> van <a href="Berekening bruto en netto ouderdomspensioen_Regelgroep.html#519085519418180510">de Natuurlijk persoon</a> van (<a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976998591" class="parameter">de <span class="parameter">Percentage van minimumloon voor AOW van gehuwde</span></a> van <a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976931958" class="parameter">de <span class="parameter">Netto minimumloon per maand</span></a>)) naar beneden afgerond op 2 decimalen <br>indien <a href="Berekening bruto en netto ouderdomspensioen_Regelgroep.html#519085519418180510">de Natuurlijk persoon</a> <a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976983903" class="kenmerk">partner voor de AOW</a> heeft.</div>
+      </div>
+    </div>
+    <div class="regel">
+      <b>Regel</b>
+      <span>Berekening netto ouderdomspensioen</span>
+      <div>
+        <span class="geldig">geldig 
+            altijd</span>
+        <div class="spraak"><span id="519085519417884540">De <a href="../../gegevens/gegevensmodel_ObjectModel.html#519085519417869188" class="attribuut">netto-ouderdomspensioen</a></span> van <span id="519085519417884539">een <a href="../../gegevens/gegevensmodel_ObjectModel.html#1389081297379406357" class="objecttype">Natuurlijk persoon</a></span> moet berekend worden als <span id="519085519417885675">de <a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976952171" class="attribuut">bruto-ouderdomspensioen</a></span> van <a href="Berekening bruto en netto ouderdomspensioen_Regelgroep.html#519085519417884539">de Natuurlijk persoon</a> min (<a href="../../gegevens/gegevensmodel_ObjectModel.html#519085519417881953" class="parameter">de <span class="parameter">percentage bijdrage ZVW</span></a> van <span id="519085519417885681">de <a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976952171" class="attribuut">bruto-ouderdomspensioen</a></span> van <a href="Berekening bruto en netto ouderdomspensioen_Regelgroep.html#519085519417884539">de Natuurlijk persoon</a>) naar beneden afgerond op 2 decimalen.</div>
+      </div>
+    </div>
+    <br />
+    <footer>
+      <div class="branch">GIT BRANCH:
+          no current branch found</div>
+    </footer>
+  </body>
+</html>

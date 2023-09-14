@@ -1,0 +1,39 @@
+<?xml version = "1.0"?>
+<ruleflow name="flow_fac846b6_647d_4feb_a913_955719d29620_1727859032467243680">
+  <!--gegenereerd o.b.v. de Flow genaamd 'Subflow berekening totaal AOW', in model 'besturing' in module 'NewSolution': http://127.0.0.1:63320/node?ref=r%3Afac846b6-647d-4feb-a913-955719d29620%28besturing%29%2F1727859032467243680 -->
+  <variable name="natuurlijk_spPersoon" type="Gegevens__1389081297379406357natuurlijk_spPersoon" value="de_Gegevens__1389081297379406357natuurlijk_spPersoon" />
+  <flow><booleanDecision>
+        <test>true</test>
+        <flow>
+          <task name="V = 2/3 * (L – 20,64) – (P – 67) forumule artikel 7a, tweede lid, van de Algemene Ouderdomswet altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930339814128" type="ruleset" datatype="void"></task>
+          <task name="Uitkomst formule artikel 7a, tweede lid, van de Algemene Ouderdomswet 1 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_4038074786039897006" type="ruleset" datatype="void"></task>
+          <task name="Uitkomst formule artikel 7a, tweede lid, van de Algemene Ouderdomswet 2 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_4038074786039904869" type="ruleset" datatype="void"></task>
+          <task name="Bepalen pensioengerechtige leeftijd vanaf 2026 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_4038074786039936869" type="ruleset" datatype="void"></task>
+          <task name="Pensioengerechtigde leeftijd bepalen in 2013 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976096888" type="ruleset" datatype="void"></task>
+          <task name="Pensioengerechtigde leeftijd bepalen in 2014 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976501403" type="ruleset" datatype="void"></task>
+          <task name="Pensioengerechtigde leeftijd bepalen in 2015 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976687467" type="ruleset" datatype="void"></task>
+          <task name="Pensioengerechtigde leeftijd bepalen in 2016 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976534684" type="ruleset" datatype="void"></task>
+          <task name="Pensioengerechtigde leeftijd bepalen in 2017 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930338864001" type="ruleset" datatype="void"></task>
+          <task name="Pensioengerechtigde leeftijd bepalen in 2018 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930338894339" type="ruleset" datatype="void"></task>
+          <task name="Pensioengerechtigde leeftijd bepalen in 2019, 2020 en 2021 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930338934357" type="ruleset" datatype="void"></task>
+          <task name="Pensioengerechtigde leeftijd bepalen in 2022 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976558552" type="ruleset" datatype="void"></task>
+          <task name="Pensioengerechtigde leeftijd bepalen in 2023 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976595719" type="ruleset" datatype="void"></task>
+          <task name="Pensioengerechtigde leeftijd bepalen in 2024 en 2025 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930339058347" type="ruleset" datatype="void"></task>
+          <task name="Regel pensioengerechtige leeftijd is bereikt altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930339280556" type="ruleset" datatype="void"></task>
+          <task name="Initialisatie pensioengerechtigde leeftijd is bereikt altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_2583762750650191984" type="ruleset" datatype="void"></task>
+          <task name="Initialisatie  altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418184442" type="ruleset" datatype="void"></task>
+          <task name="consistentie - jaren verzekerd voor AOW kleiner of gelijk aan 50 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418157132" type="ruleset" datatype="void"></task>
+          <task name="consistentie - jaren verzekerd voor AOW groter of gelijk aan 0 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418158290" type="ruleset" datatype="void"></task>
+          <task name="Berekening percentage recht op ouderdomspensioen  altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418153956" type="ruleset" datatype="void"></task>
+          <task name="Berekening bruto ouderdomspensioen geen partner  altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418173000" type="ruleset" datatype="void"></task>
+          <task name="Berekening bruto ouderdomspensioen met partner  altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418180505" type="ruleset" datatype="void"></task>
+          <task name="Berekening netto ouderdomspensioen altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519417883313" type="ruleset" datatype="void"></task>
+          <task name="A02 - recht op AOW toeslag altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467009948" type="ruleset" datatype="void"></task>
+          <task name="A01 - initialisatie AOW toeslag altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467263030" type="ruleset" datatype="void"></task>
+          <task name="B02 - berekening hoogte AOW toeslag altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467176989" type="ruleset" datatype="void"></task>
+          <task name="B01 - initialisatie bedrag AOW toeslag altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467265916" type="ruleset" datatype="void"></task>
+          <task name="C01 - totaal ouderdomspensioen inclusief toeslag altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467241208" type="ruleset" datatype="void"></task>
+        </flow>
+      </booleanDecision>
+      </flow>
+</ruleflow>

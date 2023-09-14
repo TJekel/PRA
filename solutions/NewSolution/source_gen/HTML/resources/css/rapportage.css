@@ -1,0 +1,95 @@
+.navigation {
+}
+#navigationFrame {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    height: calc(100% - 110px);
+    width: calc(25% - 2px);
+    background-color: rgb(1,104,155);
+    color: white;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+#navigationFrame ul {
+    list-style: none;
+    padding-left: 15px;
+}
+#navigationFrame a {
+    color: rgb(200, 200, 200);
+}
+.folder {
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+}
+.folder::before {
+    content: "\25B6";
+    color: white;
+    display: inline-block;
+    margin-right: 6px;
+}
+.folder-expanded::before {
+    transform: rotate(90deg);
+}
+.nested { display: none; }
+.active { display: block; }
+.selected { background-color: rgb(120, 150, 220); }
+
+#contentFrame {
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    height: calc(100% - 112px);
+    width: calc(75% - 30px);
+    padding-left: 30px;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 90px;
+    background-color: white;
+}
+
+header h1 {
+    margin: 2px;
+    width: 45%;
+}
+
+#top-header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 87px;
+    text-align: center;
+    background: transparent;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 16px;
+    padding: 2px;
+    border-top: 2px solid rgb(180, 180, 180);
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) {
+     .selector:not(*:root), .chrome {
+    display: block;
+    background-color: red;
+    color: white;
+}
+
+

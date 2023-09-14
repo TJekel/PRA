@@ -1,0 +1,7 @@
+<?xml version = "1.0"?>
+<ruleflow name="ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_5952312543777624918">
+  <!--gegenereerd o.b.v. de Regelgroep genaamd 'Begindatum periode belastingverlaging en premievrije periode vanwege bereiken AOW-leeftijd', in model 'regels' in module 'NewSolution': http://127.0.0.1:63320/node?ref=r%3Ac392a267-b71c-4f7e-b053-59d39c419ada%28regels%29%2F5952312543777624918 --> 
+  <flow>
+    <task name="begindatum verlaging LB/PV vanwege bereiken AOW-leeftijd 01 vanaf 2018" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_5952312543777625023" type="ruleset" datatype="void" />
+  </flow>
+</ruleflow>

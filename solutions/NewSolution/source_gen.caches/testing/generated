@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-9fhwxaqdw1s7e71x4ljry32uehshxir">
+  <files names="BedragOuderdomspensioen.java:BerekeningVoorPercentageRechtOpOuderdomspensioen.java:FlowtestHoogteBedragBrutoEnNettoOuderdomspensioen.java:FlowtestVoorBerekeningTotaalAOW.java:PensioengerechtigdeLeeftijdVanaf2026.java:PensioengerechtigeDatumTesten.java:TestRegelgroepBerekningAOWToeslag.java:unittest_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_1727859032467245948.test.rb:unittest_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_1727859032467259533.test.rb:unittest_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_4038074786039914327.test.rb:unittest_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_519085519417888383.test.rb:unittest_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_519085519418080343.test.rb:unittest_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_519085519418190231.test.rb:unittest_3a1c14c5_b06d_4194_97ee_d53d0fdd17d6_7584460524975903360.test.rb" />
+  <files dir="HTML/resources/css/" names="beslistabellen.css:besturing.css:main.css:objecten.css:rapportage.css:regels.css:services.css:testen.css" />
+  <files dir="HTML/testing/" names="Bedrag ouderdomspensioen_TestSet.html:Berekening voor percentage recht op ouderdomspensioen_TestSet.html:Pensioengerechtigde leeftijd vanaf 2026_TestSet.html:Pensioengerechtige datum testen_TestSet.html:Test - regelgroep Berekning AOW toeslag_TestSet.html" />
+  <files dir="HTML/testing/Flow testing/" names="Flowtest hoogte bedrag bruto en netto ouderdomspensioen_TestSet.html:Flowtest voor berekening totaal AOW_TestSet.html" />
+  <files dir="testing" names="modelInfo.json" />
+</product>
+

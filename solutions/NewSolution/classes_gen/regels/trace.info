@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:c392a267-b71c-4f7e-b053-59d39c419ada(regels)/1727859032467009944">
+    <file name="ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467009944.flow">
+      <unit id="1727859032467009944" at="1,0,11,11" name="regels.ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467009944" />
+    </file>
+  </root>
+  <root nodeRef="r:c392a267-b71c-4f7e-b053-59d39c419ada(regels)/2583762750650134177">
+    <file name="ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_2583762750650134177.flow">
+      <unit id="2583762750650134177" at="1,0,18,11" name="regels.ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_2583762750650134177" />
+    </file>
+  </root>
+  <root nodeRef="r:c392a267-b71c-4f7e-b053-59d39c419ada(regels)/519085519418056014">
+    <file name="ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418056014.flow">
+      <unit id="519085519418056014" at="1,0,10,11" name="regels.ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418056014" />
+    </file>
+  </root>
+  <root nodeRef="r:c392a267-b71c-4f7e-b053-59d39c419ada(regels)/5952312543777624918">
+    <file name="ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_5952312543777624918.flow">
+      <unit id="5952312543777624918" at="1,0,7,11" name="regels.ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_5952312543777624918" />
+    </file>
+  </root>
+  <root nodeRef="r:c392a267-b71c-4f7e-b053-59d39c419ada(regels)/7321771930339651747">
+    <file name="ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930339651747.flow">
+      <unit id="7321771930339651747" at="1,0,10,11" name="regels.ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_7321771930339651747" />
+    </file>
+  </root>
+  <root nodeRef="r:c392a267-b71c-4f7e-b053-59d39c419ada(regels)/7584460524976997879">
+    <file name="ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976997879.flow">
+      <unit id="7584460524976997879" at="1,0,9,11" name="regels.ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_7584460524976997879" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+<ruleflow name="ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467009944">
+  <!--gegenereerd o.b.v. de Regelgroep genaamd 'Berekening AOW toeslag', in model 'regels' in module 'NewSolution': http://127.0.0.1:63320/node?ref=r%3Ac392a267-b71c-4f7e-b053-59d39c419ada%28regels%29%2F1727859032467009944 --> 
+  <flow>
+    <task name="A02 - recht op AOW toeslag altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467009948" type="ruleset" datatype="void" />
+    <task name="A01 - initialisatie AOW toeslag altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467263030" type="ruleset" datatype="void" />
+    <task name="B02 - berekening hoogte AOW toeslag altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467176989" type="ruleset" datatype="void" />
+    <task name="B01 - initialisatie bedrag AOW toeslag altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467265916" type="ruleset" datatype="void" />
+    <task name="C01 - totaal ouderdomspensioen inclusief toeslag altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_1727859032467241208" type="ruleset" datatype="void" />
+  </flow>
+</ruleflow>

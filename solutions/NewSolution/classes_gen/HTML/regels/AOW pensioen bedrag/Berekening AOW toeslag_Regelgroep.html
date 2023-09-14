@@ -1,0 +1,247 @@
+<html>
+  <head>
+    <title>Berekening AOW toeslag</title>
+    
+    <link rel="stylesheet" type="text/css" href="../../resources/css/main.css"></link>
+    <link rel="stylesheet" type="text/css" href="../../resources/css/regels.css"></link>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"></link>
+  </head>
+  <body>
+    <span class="alefUrl" onClick="new Image().src='http://127.0.0.1:63320/node?ref=r%3Ac392a267-b71c-4f7e-b053-59d39c419ada%28regels%29%2F1727859032467009944'">ALEF</span>
+    <div class="title">Regelgroep Berekening AOW toeslag</div>
+    <div class="comment">
+      <span>
+        //&nbsp;Als
+        het
+        gezinsinkomen
+        onder
+        het
+        sociaal
+        minimum
+        komt
+        dan
+        komt
+        de
+        persoon
+        mogelijk
+        in
+        aanmerking
+        voor
+        de
+        AIO,
+        de
+        aanvullende
+        inkomensvoorziening
+        ouderen.
+        <br />
+      </span>
+      <span>
+        //&nbsp;
+        <br />
+      </span>
+      <span>
+        //&nbsp;Dit
+        is
+        echter
+        mogelijk
+        niet
+        relevant
+        voor
+        de
+        voorgestelde
+        pensioencase
+        omdat
+        het
+        ondenkbaar
+        is
+        dat
+        in
+        een
+        dergelijke
+        situatie
+        overlapping
+        van
+        verschillende
+        pensioen
+        verstrekkers
+        plaatsvindt
+        tot
+        een
+        bedrag
+        waarop
+        de
+        heffing
+        van
+        IB
+        scheef
+        gaat
+        lopen
+        met
+        de
+        inhouding
+        van
+        de
+        loonheffingen.
+        Ook
+        is
+        de
+        AOW-toeslag
+        in
+        2015
+        afgeschaft.
+        <br />
+      </span>
+      <span>
+        //&nbsp;
+        <br />
+      </span>
+      <span>
+        //&nbsp;Overigens
+        is
+        uitzondering
+        op
+        uitzondering
+        opgenomen
+        in
+        artikel
+        8
+        en
+        verder,
+        een
+        gegeven
+        voor
+        een
+        statische
+        service.
+        De
+        werkelijke
+        afweging
+        geschiedt
+        (doorgaans)
+        derhalve
+        voorafgaand
+        aan
+        het
+        aanroepen
+        van
+        de
+        service.
+        <br />
+      </span>
+    </div>
+    <div class="regel">
+      <b>Regel</b>
+      <span>A01 - initialisatie AOW toeslag</span>
+      <div>
+        <span class="geldig">geldig 
+            altijd</span>
+        <div class="spraak"><span id="1727859032467265089">De <a href="../../gegevens/gegevensmodel_ObjectModel.html#1727859032467045480" class="attribuut">recht op AOW-toeslag</a></span> van <span id="1727859032467265088">een <a href="../../gegevens/gegevensmodel_ObjectModel.html#1389081297379406357" class="objecttype">Natuurlijk persoon</a></span> moet ge&iuml;nitialiseerd worden op <span class="literal">onwaar</span>.</div>
+      </div>
+    </div>
+    <div class="regel">
+      <b>Regel</b>
+      <span>A02 - recht op AOW toeslag</span>
+      <div>
+        <div class="bronnen">
+          Bronnen:
+          <div>
+            <div>
+              1.  
+              <a href="https://wetten.overheid.nl/jci1.3:c:BWBR0002221&hoofdstuk=III&paragraaf=1&artikel=8&z=2023-01-01&g=2023-01-01" target="_blank">https://wetten.overheid.nl/jci1.3:c:BWBR0002221&amp;hoofdstuk=III&amp;paragraaf=1&amp;artikel=8&amp;z=2023-01-01&amp;g=2023-01-01</a>
+              <div>H III par 1 art 8 wet BWBR0002221</div>
+            </div>
+          </div>
+        </div>
+        <span class="geldig">geldig 
+            altijd</span>
+        <div class="spraak"><span id="1727859032467057223">De <a href="../../gegevens/gegevensmodel_ObjectModel.html#1727859032467045480" class="attribuut">recht op AOW-toeslag</a></span> van <span id="1727859032467057222">een <a href="../../gegevens/gegevensmodel_ObjectModel.html#1389081297379406357" class="objecttype">Natuurlijk persoon</a></span> moet gesteld worden op <span class="literal">waar</span> <br>indien er aan alle volgende voorwaarden wordt voldaan : <br>&nbsp;&nbsp;&bull; <a href="Berekening AOW toeslag_Regelgroep.html#1727859032467057222">de Natuurlijk persoon</a> is <a href="../../gegevens/gegevensmodel_ObjectModel.html#1727859032467069029" class="kenmerk">gehuwd voor 1 januari 2015 </a> <br>&nbsp;&nbsp;&bull; <a href="Berekening AOW toeslag_Regelgroep.html#1727859032467057222">de Natuurlijk persoon</a> heeft <a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976983903" class="kenmerk">partner voor de AOW</a> <br>&nbsp;&nbsp;&bull; <a href="Berekening AOW toeslag_Regelgroep.html#1727859032467057222">de Natuurlijk persoon</a> heeft <a href="../../gegevens/gegevensmodel_ObjectModel.html#1727859032467116054" class="kenmerk">echtgenoot die jonger is dan de pensioengerechtigde leeftijd </a> <br>&nbsp;&nbsp;&bull; <a href="Berekening AOW toeslag_Regelgroep.html#1727859032467057222">de Natuurlijk persoon</a> heeft niet <a href="../../gegevens/gegevensmodel_ObjectModel.html#1727859032467139612" class="kenmerk">echtgenoot die met inachtneming van artikel 11 AOW, het inkomen uit arbeid of overig inkomen van die echtgenoot meer bedraagt dan de volledige bruto toeslag .</a>.</div>
+      </div>
+    </div>
+    <div class="comment">
+      <span>
+        //&nbsp;Artikel
+        9(6)
+        AOW:
+        <br />
+      </span>
+      <span>
+        //&nbsp;
+        <br />
+      </span>
+      <span>
+        //&nbsp;De
+        volledige
+        bruto-toeslag,
+        bedoeld
+        in
+        artikel
+        8
+        AOW,
+        is
+        gelijk
+        aan
+        het
+        bruto-ouderdomspensioen
+        voor
+        de
+        pensioengerechtigde,
+        bedoeld
+        in
+        het
+        eerste
+        lid,
+        onderdeel
+        b
+        (de
+        gehuwde
+        pensioengerechtigde).
+        Bron
+        nog
+        toevoegen.
+        <br />
+      </span>
+    </div>
+    <div class="regel">
+      <b>Regel</b>
+      <span>B01 - initialisatie bedrag AOW toeslag</span>
+      <div>
+        <span class="geldig">geldig 
+            altijd</span>
+        <div class="spraak"><span id="1727859032467267161">De <a href="../../gegevens/gegevensmodel_ObjectModel.html#1727859032467164719" class="attribuut">bedrag AOW-toeslag</a></span> van <span id="1727859032467267160">een <a href="../../gegevens/gegevensmodel_ObjectModel.html#1389081297379406357" class="objecttype">Natuurlijk persoon</a></span> moet ge&iuml;nitialiseerd worden op <span class="literal">0</span>.</div>
+      </div>
+    </div>
+    <div class="regel">
+      <b>Regel</b>
+      <span>B02 - berekening hoogte AOW toeslag</span>
+      <div>
+        <div class="bronnen">
+          Bronnen:
+          <div>
+            <div>
+              1.  
+              <a href="http://wetten.overheid.nl/jci1.3:c:BWBR0002221&hoofdstuk=III&paragraaf=1&artikel=9&lid=6" target="_blank">http://wetten.overheid.nl/jci1.3:c:BWBR0002221&amp;hoofdstuk=III&amp;paragraaf=1&amp;artikel=9&amp;lid=6</a>
+              <div>H III par 1 art 9 lid 6 wet BWBR0002221</div>
+            </div>
+          </div>
+        </div>
+        <span class="geldig">geldig 
+            altijd</span>
+        <div class="spraak"><span id="1727859032467178492">De <a href="../../gegevens/gegevensmodel_ObjectModel.html#1727859032467164719" class="attribuut">bedrag AOW-toeslag</a></span> van <span id="1727859032467178491">een <a href="../../gegevens/gegevensmodel_ObjectModel.html#1389081297379406357" class="objecttype">Natuurlijk persoon</a></span> moet berekend worden als <a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976998591" class="parameter">de <span class="parameter">Percentage van minimumloon voor AOW van gehuwde</span></a> van <a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976931958" class="parameter">de <span class="parameter">Netto minimumloon per maand</span></a> naar beneden afgerond op 2 decimalen <br>indien <span id="1727859032467215944">de <a href="../../gegevens/gegevensmodel_ObjectModel.html#1727859032467045480" class="attribuut">recht op AOW-toeslag</a></span> van <a href="Berekening AOW toeslag_Regelgroep.html#1727859032467178491">de Natuurlijk persoon</a> gelijk is aan <span class="literal">waar</span>.</div>
+      </div>
+    </div>
+    <div class="regel">
+      <b>Regel</b>
+      <span>C01 - totaal ouderdomspensioen inclusief toeslag</span>
+      <div>
+        <span class="geldig">geldig 
+            altijd</span>
+        <div class="spraak"><span id="1727859032467242352">De <a href="../../gegevens/gegevensmodel_ObjectModel.html#1727859032467227765" class="attribuut">totaal bruto ouderdomspensioen - inclusief toeslag</a></span> van <span id="1727859032467242351">een <a href="../../gegevens/gegevensmodel_ObjectModel.html#1389081297379406357" class="objecttype">Natuurlijk persoon</a></span> moet berekend worden als <span id="1727859032467242466">de <a href="../../gegevens/gegevensmodel_ObjectModel.html#7584460524976952171" class="attribuut">bruto-ouderdomspensioen</a></span> van <a href="Berekening AOW toeslag_Regelgroep.html#1727859032467242351">de Natuurlijk persoon</a> plus <span id="1727859032467243373">de <a href="../../gegevens/gegevensmodel_ObjectModel.html#1727859032467164719" class="attribuut">bedrag AOW-toeslag</a></span> van <a href="Berekening AOW toeslag_Regelgroep.html#1727859032467242351">de Natuurlijk persoon</a>.</div>
+      </div>
+    </div>
+    <br />
+    <footer>
+      <div class="branch">GIT BRANCH:
+          no current branch found</div>
+    </footer>
+  </body>
+</html>

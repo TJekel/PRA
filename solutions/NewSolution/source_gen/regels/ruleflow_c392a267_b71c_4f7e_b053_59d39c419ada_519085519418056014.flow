@@ -1,0 +1,10 @@
+<?xml version = "1.0"?>
+<ruleflow name="ruleflow_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418056014">
+  <!--gegenereerd o.b.v. de Regelgroep genaamd 'Berekening percentage recht op ouderdomspensioen', in model 'regels' in module 'NewSolution': http://127.0.0.1:63320/node?ref=r%3Ac392a267-b71c-4f7e-b053-59d39c419ada%28regels%29%2F519085519418056014 --> 
+  <flow>
+    <task name="Initialisatie  altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418184442" type="ruleset" datatype="void" />
+    <task name="consistentie - jaren verzekerd voor AOW kleiner of gelijk aan 50 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418157132" type="ruleset" datatype="void" />
+    <task name="consistentie - jaren verzekerd voor AOW groter of gelijk aan 0 altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418158290" type="ruleset" datatype="void" />
+    <task name="Berekening percentage recht op ouderdomspensioen  altijd" implementation="ruleset_c392a267_b71c_4f7e_b053_59d39c419ada_519085519418153956" type="ruleset" datatype="void" />
+  </flow>
+</ruleflow>
